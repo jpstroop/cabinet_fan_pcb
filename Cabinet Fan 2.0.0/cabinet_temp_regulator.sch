@@ -174,42 +174,6 @@
 <libraries>
 <library name="cabinet_temp_regulator">
 <packages>
-<package name="ADAFRUIT-BMP280-STEMMA-QT-FULL_FOOTPRINT">
-<description>Adafruit BMP280
-I2C or SPI Barometric Pressure &amp; Altitude Sensor - STEMMA QT
-See: https://www.adafruit.com/product/2651</description>
-<pad name="5" x="2.54" y="-6.35" drill="0.6"/>
-<pad name="6" x="5.08" y="-6.35" drill="0.6"/>
-<pad name="7" x="7.62" y="-6.35" drill="0.6"/>
-<pad name="3" x="-2.54" y="-6.35" drill="0.6"/>
-<pad name="2" x="-5.08" y="-6.35" drill="0.6"/>
-<pad name="1" x="-7.62" y="-6.35" drill="0.6"/>
-<wire x1="10.16" y1="8.89" x2="-10.16" y2="8.89" width="0.127" layer="51"/>
-<wire x1="10.16" y1="-8.89" x2="-10.16" y2="-8.89" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-6.35" x2="12.7" y2="6.35" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="6.35" x2="-12.7" y2="-6.35" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="6.35" x2="-10.16" y2="8.89" width="0.127" layer="51" curve="-90"/>
-<wire x1="10.16" y1="8.89" x2="12.7" y2="6.35" width="0.127" layer="51" curve="-90"/>
-<wire x1="12.7" y1="-6.35" x2="10.16" y2="-8.89" width="0.127" layer="51" curve="-90"/>
-<wire x1="-10.16" y1="-8.89" x2="-12.7" y2="-6.35" width="0.127" layer="51" curve="-90"/>
-<pad name="4" x="0" y="-6.35" drill="0.6"/>
-<text x="-12.7" y="10.16" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="10.16" y1="8.89" x2="-10.16" y2="8.89" width="0.254" layer="21"/>
-<wire x1="-12.7" y1="6.35" x2="-12.7" y2="-6.35" width="0.254" layer="21"/>
-<wire x1="-10.16" y1="-8.89" x2="10.16" y2="-8.89" width="0.254" layer="21"/>
-<wire x1="12.7" y1="-6.35" x2="12.7" y2="6.35" width="0.254" layer="21"/>
-<wire x1="-12.7" y1="6.35" x2="-10.16" y2="8.89" width="0.254" layer="21" curve="-90"/>
-<wire x1="-10.16" y1="-8.89" x2="-12.7" y2="-6.35" width="0.254" layer="21" curve="-90"/>
-<wire x1="12.7" y1="-6.35" x2="10.16" y2="-8.89" width="0.254" layer="21" curve="-90"/>
-<wire x1="10.16" y1="8.89" x2="12.7" y2="6.35" width="0.254" layer="21" curve="-90"/>
-<text x="-2.54" y="-7.62" size="0.8128" layer="21" align="center">GND</text>
-<text x="-7.62" y="-7.62" size="0.8128" layer="21" align="center">VIN</text>
-<text x="-5.08" y="-5.08" size="0.8128" layer="21" align="center">3Vo</text>
-<text x="0" y="-5.08" size="0.8128" layer="21" align="center">SCK</text>
-<text x="2.54" y="-7.62" size="0.8128" layer="21" align="center">SDO</text>
-<text x="5.08" y="-5.08" size="0.8128" layer="21" align="center">SDI</text>
-<text x="7.62" y="-7.62" size="0.8128" layer="21" align="center">CS</text>
-</package>
 <package name="ADAFRUIT-BMP280-STEMMA-QT-HEADER">
 <description>Adafruit BMP280
 I2C or SPI Barometric Pressure &amp; Altitude Sensor - STEMMA QT
@@ -332,6 +296,50 @@ See: https://www.adafruit.com/product/2651</description>
 <wire x1="32.5" y1="-8.5" x2="31.5" y2="-8.5" width="0.127" layer="51"/>
 <wire x1="32.5" y1="-12" x2="32.5" y2="-8.5" width="0.127" layer="51"/>
 <wire x1="32.5" y1="12" x2="32.5" y2="8.5" width="0.127" layer="51"/>
+<hole x="-29" y="11.5" drill="2.5"/>
+<hole x="29" y="11.5" drill="2.5"/>
+<hole x="29" y="-11.5" drill="2.5"/>
+<hole x="-29" y="-11.5" drill="2.5"/>
+</package>
+<package name="ADAFRUIT-BMP280-STEMMA-QT-FULL_FOOTPRINT">
+<description>Adafruit BMP280
+I2C or SPI Barometric Pressure &amp; Altitude Sensor - STEMMA QT
+See: https://www.adafruit.com/product/2651</description>
+<pad name="5" x="2.54" y="-6.35" drill="0.6"/>
+<pad name="6" x="5.08" y="-6.35" drill="0.6"/>
+<pad name="7" x="7.62" y="-6.35" drill="0.6"/>
+<pad name="3" x="-2.54" y="-6.35" drill="0.6"/>
+<pad name="2" x="-5.08" y="-6.35" drill="0.6"/>
+<pad name="1" x="-7.62" y="-6.35" drill="0.6"/>
+<wire x1="10.16" y1="8.89" x2="-10.16" y2="8.89" width="0.127" layer="51"/>
+<wire x1="10.16" y1="-8.89" x2="-10.16" y2="-8.89" width="0.127" layer="51"/>
+<wire x1="12.7" y1="-6.35" x2="12.7" y2="6.35" width="0.127" layer="51"/>
+<wire x1="-12.7" y1="6.35" x2="-12.7" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="-12.7" y1="6.35" x2="-10.16" y2="8.89" width="0.127" layer="51" curve="-90"/>
+<wire x1="10.16" y1="8.89" x2="12.7" y2="6.35" width="0.127" layer="51" curve="-90"/>
+<wire x1="12.7" y1="-6.35" x2="10.16" y2="-8.89" width="0.127" layer="51" curve="-90"/>
+<wire x1="-10.16" y1="-8.89" x2="-12.7" y2="-6.35" width="0.127" layer="51" curve="-90"/>
+<pad name="4" x="0" y="-6.35" drill="0.6"/>
+<text x="-12.7" y="10.16" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="10.16" y1="8.89" x2="-10.16" y2="8.89" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="6.35" x2="-12.7" y2="-6.35" width="0.254" layer="21"/>
+<wire x1="-10.16" y1="-8.89" x2="10.16" y2="-8.89" width="0.254" layer="21"/>
+<wire x1="12.7" y1="-6.35" x2="12.7" y2="6.35" width="0.254" layer="21"/>
+<wire x1="-12.7" y1="6.35" x2="-10.16" y2="8.89" width="0.254" layer="21" curve="-90"/>
+<wire x1="-10.16" y1="-8.89" x2="-12.7" y2="-6.35" width="0.254" layer="21" curve="-90"/>
+<wire x1="12.7" y1="-6.35" x2="10.16" y2="-8.89" width="0.254" layer="21" curve="-90"/>
+<wire x1="10.16" y1="8.89" x2="12.7" y2="6.35" width="0.254" layer="21" curve="-90"/>
+<text x="-2.54" y="-7.62" size="0.8128" layer="21" align="center">GND</text>
+<text x="-7.62" y="-7.62" size="0.8128" layer="21" align="center">VIN</text>
+<text x="-5.08" y="-5.08" size="0.8128" layer="21" align="center">3Vo</text>
+<text x="0" y="-5.08" size="0.8128" layer="21" align="center">SCK</text>
+<text x="2.54" y="-7.62" size="0.8128" layer="21" align="center">SDO</text>
+<text x="5.08" y="-5.08" size="0.8128" layer="21" align="center">SDI</text>
+<text x="7.62" y="-7.62" size="0.8128" layer="21" align="center">CS</text>
+<hole x="-10.16" y="6.35" drill="2.54"/>
+<hole x="10.16" y="6.35" drill="2.54"/>
+<hole x="10.16" y="-6.35" drill="2.54"/>
+<hole x="-10.16" y="-6.35" drill="2.54"/>
 </package>
 <package name="ADAFRUIT-20X4-RGB-LCD">
 <description>ADAFRUIT RGB BACKLIGHT POSITIVE LCD 20X4
@@ -364,6 +372,10 @@ https://www.adafruit.com/product/499</description>
 <pad name="16" x="-0.9" y="27.5" drill="0.6"/>
 <pad name="17" x="1.64" y="27.5" drill="0.6"/>
 <pad name="18" x="4.18" y="27.5" drill="0.6"/>
+<hole x="-46.5" y="27.5" drill="2.5"/>
+<hole x="-46.5" y="-27.5" drill="2.5"/>
+<hole x="46.5" y="-27.5" drill="2.5"/>
+<hole x="46.5" y="27.5" drill="2.5"/>
 </package>
 </packages>
 <symbols>
@@ -635,8 +647,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="ONBOARD_BMP280" library="cabinet_temp_regulator" deviceset="ADAFRUIT-BMP280-STEMMA-QT" device=""/>
-<part name="EXTERNAL_BMP280" library="cabinet_temp_regulator" deviceset="ADAFRUIT-BMP280-STEMMA-QT" device="ADAFRUIT-BMP280-STEMMA-QT-HEADER"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="Cabinet Temperature Regulator"/>
 <attribute name="CREVISION" value="2.0.0"/>
@@ -644,6 +654,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="REV" value="2.0.0"/>
 </part>
 <part name="RASPBERRY_PI_ZERO" library="cabinet_temp_regulator" deviceset="RASPBERRY_PI_ZERO" device=""/>
+<part name="ONBOARD_BMP280" library="cabinet_temp_regulator" deviceset="ADAFRUIT-BMP280-STEMMA-QT" device=""/>
+<part name="EXTERNAL_BMP280" library="cabinet_temp_regulator" deviceset="ADAFRUIT-BMP280-STEMMA-QT" device="ADAFRUIT-BMP280-STEMMA-QT-HEADER"/>
 <part name="RGB_LCD" library="cabinet_temp_regulator" deviceset="ADAFRUIT-20X4-RGB-LCD" device=""/>
 </parts>
 <sheets>
@@ -651,12 +663,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 </plain>
 <instances>
-<instance part="ONBOARD_BMP280" gate="G$1" x="30.48" y="48.26" smashed="yes">
-<attribute name="NAME" x="20.32" y="71.12" size="1.778" layer="94"/>
-</instance>
-<instance part="EXTERNAL_BMP280" gate="G$1" x="30.48" y="109.22" smashed="yes">
-<attribute name="NAME" x="20.32" y="132.08" size="1.778" layer="94"/>
-</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="181.61" y="11.43" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="181.61" y="6.35" size="2.286" layer="94" font="vector"/>
@@ -666,11 +672,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="CNAME" x="181.61" y="16.51" size="2.54" layer="94" font="vector"/>
 <attribute name="CREVISION" x="234.92" y="1.17" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="RASPBERRY_PI_ZERO" gate="G$1" x="121.92" y="96.52" smashed="yes">
-<attribute name="NAME" x="114.3" y="154.94" size="1.778" layer="94"/>
+<instance part="RASPBERRY_PI_ZERO" gate="G$1" x="114.3" y="96.52" smashed="yes">
+<attribute name="NAME" x="106.68" y="154.94" size="1.778" layer="94"/>
 </instance>
-<instance part="RGB_LCD" gate="G$1" x="195.58" y="106.68" smashed="yes">
-<attribute name="NAME" x="190.5" y="154.94" size="1.778" layer="94"/>
+<instance part="ONBOARD_BMP280" gate="G$1" x="30.48" y="53.34" smashed="yes">
+<attribute name="NAME" x="20.32" y="76.2" size="1.778" layer="94"/>
+</instance>
+<instance part="EXTERNAL_BMP280" gate="G$1" x="30.48" y="111.76" smashed="yes">
+<attribute name="NAME" x="20.32" y="134.62" size="1.778" layer="94"/>
+</instance>
+<instance part="RGB_LCD" gate="G$1" x="200.66" y="106.68" smashed="yes">
+<attribute name="NAME" x="195.58" y="154.94" size="1.778" layer="94"/>
 </instance>
 </instances>
 <busses>

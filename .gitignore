@@ -1,5 +1,6 @@
 *.b#*
 *.l#*
 *.s#*
+*.epf
 .DS_Store
 !*.lbr
